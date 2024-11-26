@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./SendEmail.css";  // Import the CSS file
+import "./sendEmail.css";  
 
 const SendEmail = () => {
   const [recipientEmail, setRecipientEmail] = useState("");

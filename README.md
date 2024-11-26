@@ -38,10 +38,29 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/student-management-dashboard.git
+   git clone https://github.com/mdzubairx/student-management-dashboard
 
 2. **Navigate to the project directory**:
+   ```bash
    cd student-management-dashboard
+3. **Install Dependencies**:
+   ```bash
+   npm install
+4. **Start the development server**:
+   ```bash
+   npm start
+5. **Access the app locally at http://localhost:3000.**
+
+
+
+## Folder Structure 
+```bash
+src/
+├── components/         # React components for various features
+├── pages/              # Pages like Dashboard, AddStudent, etc.
+├── styles/             # CSS files for styling
+├── App.jsx             # Main app component
+└── index.js            # Entry point for the React app
 
 
 

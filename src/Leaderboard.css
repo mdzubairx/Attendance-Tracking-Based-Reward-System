@@ -1,0 +1,98 @@
+/* Leaderboard.css */
+
+/* General Container */
+.leaderboard-container {
+  margin: 20px auto;
+  padding: 30px;
+  max-width: 900px;
+  background: linear-gradient(135deg, #007bff, #6c63ff);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+/* Header Styling */
+.leaderboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.leaderboard-header h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.leaderboard-header p {
+  font-size: 16px;
+  color: #d1d1e9;
+}
+
+/* Table Styling */
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 15px;
+  text-align: center;
+}
+
+.leaderboard-table th {
+  background: #6c63ff;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.leaderboard-table td {
+  color: #343a40;
+  font-size: 16px;
+}
+
+/* Alternate Row Coloring */
+.leaderboard-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.leaderboard-table tr:nth-child(odd) {
+  background-color: #e9ecef;
+}
+
+/* Top Rank Highlight */
+.leaderboard-table .top-rank {
+  font-weight: bold;
+  background: linear-gradient(135deg, #ffc107, #ff9f43);
+  color: #343a40;
+}
+
+/* Hover Animation */
+.leaderboard-table tr:hover {
+  background: #dbe7ff;
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .leaderboard-container {
+    padding: 20px;
+  }
+
+  .leaderboard-header h2 {
+    font-size: 22px;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,82 @@
+/* Container styles */
+.admin-attendance-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  .admin-attendance-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* Table styles */
+  .admin-attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table header styles */
+  .admin-attendance-table thead tr {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .admin-attendance-table th,
+  .admin-attendance-table td {
+    padding: 12px;
+  }
+  
+  /* Alternate row styles */
+  .admin-attendance-table tbody .even-row {
+    background-color: #f7f7f7;
+  }
+  
+  .admin-attendance-table tbody .odd-row {
+    background-color: #fff;
+  }
+  
+  /* Loading styles */
+  .loading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #555;
+  }
+  
+  /* Add hover effect for rows */
+  .admin-attendance-table tbody tr:hover {
+    background-color: #e6f7ff;
+    cursor: pointer;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .admin-attendance-container {
+      padding: 15px;
+    }
+  
+    .admin-attendance-header {
+      font-size: 24px;
+    }
+  
+    .admin-attendance-table th,
+    .admin-attendance-table td {
+      padding: 8px;
+    }
+  }
+  

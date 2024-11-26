@@ -23,7 +23,7 @@ const Attendance = () => {
   const handleAttendance = (id) => {
     // Send a request to update the attendance and points of a student
     axios
-      .post(`http://localhost:5000/students/${id}/attendance`)
+      .post(`https://attendance-tracking-based-reward-system.onrender.com/students/${id}/attendance`)
       .then((response) => {
         alert("Attendance and points updated!");
         // Update local state
